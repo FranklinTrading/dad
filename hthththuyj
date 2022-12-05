@@ -1,0 +1,17 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))() local Window = Library.CreateLib("Creado por franklintrcb#7729", "DarkTheme") local Tab = Window:NewTab("fake drop estafar ") local Section = Tab:NewSection("script para estafar")
+
+Section:NewButton("fake drop", "items falsos", function()
+   local plr = game.Players.LocalPlayer
+
+local chr = plr.Character
+
+chr.RightHand:Destroy()
+
+end)  Section:NewButton("Reiniciarte", "Reciniate despues de estafar", function()
+
+local plr = game.Players.LocalPlayer
+
+local chr = plr.Character
+
+chr.Head:Destroy()
+end)
